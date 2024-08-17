@@ -17,15 +17,11 @@ The Rich Text Editing is `react-rte` which is based upon Draft.js. The interface
 
 ### Notebooks
 
-![Notebooks][notebooks]
-
 Notes are organized into notebooks that a user can create. By default a notebook with the user's username is created when a new account is made.
 
 When a notebook is selected the note index changes to only display notes that are in that notebook. Notebooks can also be deleted which also deletes all notes that are associated with that notebook.
 
 ### Tags
-
-![Tags][tags]
 
 Tags on the backend are stored in one table while another table joins the relationships between notes. Having this join table helped to prevent having extra copies of a tag in the list of all the tags in the store.
 
@@ -62,10 +58,3 @@ No project is ever really finished. These are some of the things that I would li
 - [ ] Sharing
 - [ ] Multi-user editing in real time
 - [ ] Edit history
-
-[heroku]:    http://pandanote.herokuapp.com/
-[logo]:      /docs/logos/panda_icon_1.png
-[splash]:    /docs/screen_shots/splash.png
-[home]:      /docs/screen_shots/home.png
-[tags]:      /docs/screen_shots/tags.png
-[notebooks]: /docs/screen_shots/notebooks.png
