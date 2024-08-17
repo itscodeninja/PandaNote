@@ -1,13 +1,9 @@
 # PandaNote
 [PandaNote Live][heroku]
 
-![PandaNote-logo][logo]
-
 PandaNote is a full-stack single page web application inspired by Evernote. It implements the main features of Evernote. It utilizes Ruby on Rails on the backend, a PostgreSQL database, and React.js with a Redux architectural framework on the frontend.
 
-![splash]
-
-![home]
+![home](https://github.com/imahungrypanda/PandaNote/blob/master/docs/screen_shots/home.png)
 
 ## Features & Implementation
 
